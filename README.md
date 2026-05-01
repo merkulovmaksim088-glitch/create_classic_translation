@@ -1,30 +1,55 @@
-# create_classic_translation — Russian & Ukrainian localizations
+# Create Classic Translation — Russian & Ukrainian Localizations
 
-Russian and Ukrainian translations for mods used in the **Create: Classic** modpack (CurseForge).
+[![Project Status](https://img.shields.io/badge/status-active-brightgreen)]()
+[![License](https://img.shields.io/badge/license-MIT-blue)]()
+[![Modpack](https://img.shields.io/badge/modpack-Create%3A%20Classic-orange)](https://www.curseforge.com/minecraft/modpacks/create-classic)
 
-## 📦 Purpose
-This repository contains language files (`.json`) for mods that either have no official translation or have incomplete ones. All translations are done manually, respecting original licenses.
+Русские и украинские переводы для модов, используемых в сборке **Create: Classic** (CurseForge), а также архивы самих модов, если это разрешено лицензией.
 
-## 📁 How to use
-1. Open the mod `.jar` file with any archiver (7-Zip, WinRAR, etc.).
-2. Navigate to `assets/[mod_name]/lang`.
-3. Copy the corresponding `.json` file (`ru_ru.json` for Russian, `uk_ua.json` for Ukrainian) into the folder.
-4. Close the archive and launch the game.
+## 📦 Содержимое репозитория
 
-No `.jar` files are stored here — only translation files.
+Репозиторий организован по папкам для каждого мода. Внутри каждой папки вы найдете:
 
-## ⚖️ License
-Translations are licensed under **MIT**, unless the original mod requires a different license. In that case, the translation follows the original mod's license.
+1.  **Готовый к использованию `.jar` файл мода** (только для проектов с открытой лицензией, разрешающей распространение).
+2.  **Чистый файл перевода** (`ru_ru.json` и/или `uk_ua.json`) для тех, кто хочет добавить локализацию в свою версию мода вручную.
 
-Original mods belong to their respective authors. This repository does not redistribute any mod code.
+Все переводы выполнены вручную с уважением к оригинальным лицензиям.
 
-## 📝 Current translations
-| Mod | Russian | Ukrainian |
-|-----|---------|-----------|
-| Create Optical | ✔️ | ❌ |
-| Protection Pixel | ✔️ | ❌ |
+## 📁 Как использовать
 
-> More translations will be added over time.
+У вас есть два варианта:
 
-## 📬 Contact
-If you find an error or want to suggest a translation, feel free to open an Issue or Pull Request.
+### Способ 1: Готовый мод (рекомендуется)
+1.  Скачайте `.jar` файл из папки нужного мода.
+2.  Поместите его в папку `mods` вашей сборки, заменив оригинальный файл.
+3.  Готово! Этот способ самый простой, но только если мод опубликован в виде готового архива.
+
+### Способ 2: Ручная установка перевода
+1.  Скачайте только файл `.json` (например, `ru_ru.json`) из папки мода.
+2.  Откройте оригинальный `.jar` файл мода любым архиватором (7-Zip, WinRAR).
+3.  Перейдите по пути `assets/[mod_name]/lang/`.
+4.  Скопируйте скачанный `.json` файл в эту папку.
+5.  Закройте архиватор и запустите игру.
+
+## ⚖️ Лицензия
+
+*   **Файлы переводов** (`.json`) распространяются под лицензией **MIT**, если не указано иное.
+*   **Файлы модов** (`.jar`) распространяются под лицензией оригинального мода. Все права на код модов принадлежат их авторам. В этом репозитории публикуются только те моды, чья лицензия явно разрешает свободное распространение немодифицированных копий.
+
+## 📝 Текущие переводы
+
+| Мод | Русский (ru_ru) | Украинский (uk_ua) | Готовый .jar |
+| :--- | :---: | :---: | :---: |
+| **Create Optical** | ✔️ | ❌ | ✔️ |
+| **Protection Pixel** | ✔️ | ❌ | ✔️ |
+
+> Список будет пополняться. Украинские переводы находятся в разработке.
+
+## 📬 Обратная связь и сотрудничество
+
+Нашли ошибку, неточность или хотите предложить свой перевод?
+Буду рад любому вкладу в развитие проекта!
+
+*   Создайте **Issue**, чтобы сообщить о проблеме.
+*   Откройте **Pull Request** с вашими исправлениями или новыми переводами.
+*   Напишите мне напрямую (ссылки в профиле), если у вас есть вопросы или предложения по сотрудничеству.
