@@ -2,9 +2,9 @@
 
 [![Project Status](https://img.shields.io/badge/status-active-brightgreen)]()
 [![License](https://img.shields.io/badge/license-MIT-blue)]()
-[![Modpack](https://img.shields.io/badge/modpack-Create%3A%20Classic-orange)](https://www.curseforge.com/minecraft/modpacks/create-classic)
+[![Modpack](https://img.shields.io/badge/modpack-Create%3A%20Classic-orange)](https://www.curseforge.com/members/dafex11_/projects)
 
-Русские и украинские переводы для модов, используемых в сборке **Create: Classic** (CurseForge), а также архивы самих модов, если это разрешено лицензией.
+Русские и украинские переводы для модов, используемых в сборке **Create: Classic** от [DaFex11_](https://www.curseforge.com/members/dafex11_/projects), а также архивы самих модов, если это разрешено лицензией.
 
 ## 📦 Содержимое репозитория
 
